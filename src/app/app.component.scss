@@ -1,0 +1,63 @@
+.app-cmp {
+  mat-toolbar {
+    background: #004a9f;
+    height: 6vh;
+
+    .header-label {
+      font-size: 30px;
+      font-weight: bold;
+      color: white;
+      margin-left: 34px;
+    }
+  }
+
+  mat-sidenav {
+    margin: 16px;
+    width: 200px;
+    border-right: none;
+    background: #002b5c;
+    color: white;
+    border-radius: 10px;
+    padding: 16px;
+    text-align: center;
+    button {
+      background: #002b5c;
+      color: white;
+    }
+  }
+  .content {
+    height: calc(100vh - 98px);
+    margin: 16px 16px 16px 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: lightgray;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  }
+
+  mat-sidenav-container {
+    height: calc(100vh - 65px);
+  }
+
+  .menu-button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 1rem;
+    mat-icon {
+      margin-right: 8px;
+    }
+  }
+  mat-divider {
+    margin: 4px 0px 4px 0px;
+    background-color: white;
+  }
+  img {
+    width: 100px;
+    height: 140px;
+  }
+}
+
