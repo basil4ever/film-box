@@ -2,7 +2,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { SidebarModule } from 'ng-sidebar';
 import { ActorsComponent } from './actors/actors.component';
 import { GenresComponent } from './genres/genres.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -19,6 +18,7 @@ import { SidebarComponent } from './sidebar/sidebar.component';
     ActorsComponent,
     GenresComponent,
     SidebarComponent
+
   ],
   imports: [
     BrowserModule,
