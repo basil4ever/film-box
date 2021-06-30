@@ -11,6 +11,9 @@ import {MatButtonModule} from "@angular/material/button";
 import {MatIconModule} from "@angular/material/icon";
 import {MatDividerModule} from "@angular/material/divider";
 import { SidebarComponent } from './sidebar/sidebar.component';
+import {FlexLayoutModule} from "@angular/flex-layout";
+import {FormsModule} from "@angular/forms";
+import {MatCardModule} from "@angular/material/card";
 
 @NgModule({
   declarations: [
@@ -28,7 +31,10 @@ import { SidebarComponent } from './sidebar/sidebar.component';
     MatSidenavModule,
     MatButtonModule,
     MatIconModule,
-    MatDividerModule
+    MatDividerModule,
+    FlexLayoutModule,
+    FormsModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
