@@ -14,14 +14,15 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import {FlexLayoutModule} from "@angular/flex-layout";
 import {FormsModule} from "@angular/forms";
 import {MatCardModule} from "@angular/material/card";
+import {FilmsComponent} from "./films/films.component";
 
 @NgModule({
   declarations: [
     AppComponent,
     ActorsComponent,
+    FilmsComponent,
     GenresComponent,
-    SidebarComponent
-
+    SidebarComponent,
   ],
   imports: [
     BrowserModule,
