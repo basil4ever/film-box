@@ -15,6 +15,8 @@ import {FlexLayoutModule} from "@angular/flex-layout";
 import {FormsModule} from "@angular/forms";
 import {MatCardModule} from "@angular/material/card";
 import {FilmsComponent} from "./films/films.component";
+import { FilmComponent } from './film/film.component';
+import {ActorComponent} from "./actor/actor.component";
 
 @NgModule({
   declarations: [
@@ -23,6 +25,8 @@ import {FilmsComponent} from "./films/films.component";
     FilmsComponent,
     GenresComponent,
     SidebarComponent,
+    FilmComponent,
+    ActorComponent
   ],
   imports: [
     BrowserModule,
