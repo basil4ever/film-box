@@ -9,26 +9,26 @@
 <mat-sidenav #sidenav="matSidenav">
   <img src="../assets/logo.png">
   <mat-divider></mat-divider>
-  <a routerLink="/">
+  <a routerLink="/" (click)="sidenav.toggle()">
     <button mat-button class="menu-button">
       <mat-icon>home</mat-icon>
       <span>Главная</span>
     </button>
   </a>
   <mat-divider></mat-divider>
-  <a routerLink="/actors">
+  <a routerLink="/actors" (click)="sidenav.toggle()">
     <button mat-button class="menu-button">
       <mat-icon>person_outline</mat-icon>
       <span>Актеры</span>
     </button>
   </a>
-  <a routerLink="/films">
+  <a routerLink="/films" (click)="sidenav.toggle()">
     <button mat-button class="menu-button">
       <mat-icon>local_movies</mat-icon>
       <span>Фильмы</span>
     </button>
   </a>
-  <a routerLink="/genres">
+  <a routerLink="/genres" (click)="sidenav.toggle()">
     <button mat-button class="menu-button">
       <mat-icon>event_note</mat-icon>
       <span>Жанры</span>

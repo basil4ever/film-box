@@ -17,6 +17,7 @@ import {MatCardModule} from "@angular/material/card";
 import {FilmsComponent} from "./films/films.component";
 import { FilmComponent } from './film/film.component';
 import {ActorComponent} from "./actor/actor.component";
+import {GenreComponent} from "./genre/genre.component";
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import {ActorComponent} from "./actor/actor.component";
     GenresComponent,
     SidebarComponent,
     FilmComponent,
-    ActorComponent
+    ActorComponent,
+    GenreComponent
   ],
   imports: [
     BrowserModule,

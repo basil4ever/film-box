@@ -1,22 +1,20 @@
-.actor-cmp {
-  .actor-name {
+.genre-cmp {
+  .genre-name {
     margin: 30px;
     font-size: 40px;
     font-weight: bold;
   }
-  .actor-foto {
+  .genre-logo {
     border: 1pt solid black;
     width: 500px;
     height: 500px;
     margin: 20px;
   }
-  .actor-info {
-    margin: 20px;
-  }
   .films {
-    margin: 30px;
+
+    margin: 20px;
+    width: 1040px;
+
   }
-  .description{
-    margin: 30px;
-  }
+
 }
