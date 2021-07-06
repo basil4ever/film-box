@@ -1,6 +1,6 @@
 export interface Actor {
-  actor_id: number;
-  actor_name: string;
+  id: number;
+  name: string;
   date_of_birth: string;
   country: string;
   age: number;

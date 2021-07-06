@@ -1,5 +1,5 @@
 export interface Genre {
-  genre_id: number;
-  genre_name: string;
+  id: number;
+  name: string;
   films: string
 }

@@ -12,7 +12,7 @@ const routes: Routes = [
   {    path: "films", component: FilmsComponent  },
   {    path: "genres", component: GenresComponent  },
   {    path: "actor", component: ActorComponent  },
-  {    path: "film", component: FilmComponent  },
+  {    path: "film/:id", component: FilmComponent  },
   {    path: "genre", component: GenreComponent  },
 
 
