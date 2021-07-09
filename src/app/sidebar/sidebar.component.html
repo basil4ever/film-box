@@ -4,9 +4,22 @@
     <mat-icon *ngIf="!sidenav.opened">menu</mat-icon>
     <mat-icon *ngIf="sidenav.opened">close</mat-icon>
   </button>
+
   <span class="header-label">FILM BOX</span>
+
+  <button mat-icon-button *ngIf="sidenav_account.mode === 'over'"
+          (click)="sidenav_account.toggle()" class="account_button">
+    <mat-icon *ngIf="!sidenav_account.opened">person</mat-icon>
+    <mat-icon *ngIf="sidenav_account.opened">close</mat-icon>
+  </button>
 </mat-toolbar>
-<mat-sidenav #sidenav="matSidenav">
+<mat-sidenav #sidenav_account="matSidenav" class="account" #sidenav_account position="end">
+  <button mat-button class="menu-button">
+    <mat-icon>home</mat-icon>
+    <span>Аккаунт</span>
+  </button>
+</mat-sidenav>
+<mat-sidenav #sidenav="matSidenav" class="sidenav">
   <img src="../assets/logo.png">
   <mat-divider></mat-divider>
   <a routerLink="/" (click)="sidenav.toggle()">

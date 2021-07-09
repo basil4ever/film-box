@@ -1,17 +1,16 @@
 <div class="actor-cmp">
   <div class="actor-name">
-    actor name
+    {{actor.name}}
   </div>
   <div fxLayout="row" fxLayoutGap="200px">
     <div class="actor-foto"></div>
     <div class="actor-info">
       actor info
-      <div>date_of_birth</div>
-      <div>country</div>
-      <div>age</div>
+      <div>date of birth: {{actor.date_of_birth}}</div>
+      <div>country: {{actor.country}}</div>
     </div>
   </div>
   <div class="films">
-    films
+    films: {{actor.films}}
   </div>
 </div>

@@ -3,6 +3,5 @@ export interface Actor {
   name: string;
   date_of_birth: string;
   country: string;
-  age: number;
-  films: string
+  films: string[]
 }
